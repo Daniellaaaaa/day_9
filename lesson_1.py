@@ -12,7 +12,7 @@ first_number=input("First Number:")
 #prompt a user for a second number
 second_number=input("Second Number:")
 addition=float(first_number) + float(second_number)
-print(f"The sum of {first_number} and {second_number} = {addition} \n")
+print(f"The sum of {first_number} and {second_number} = {addition:.2f} \n")
 
 #To perform Subtraction
 print("Please Enter two numbers to subtract")
@@ -21,7 +21,7 @@ first_number=input("First Number:")
 #prompt a user for a second number
 second_number=input("Second Number:")
 subtraction=float(first_number) - float(second_number)
-print(f"The sum of {first_number} and {second_number} = {subtraction} \n")
+print(f"The sum of {first_number} and {second_number} = {subtraction:.2f} \n")
 
 #To perform multiplication
 print("Please Enter two numbers to multiply")
@@ -30,7 +30,7 @@ first_number=input("First Number:")
 #prompt a user for a second number
 second_number=input("Second Number:")
 multiplication=float(first_number) * float(second_number)
-print(f"The sum of {first_number} and {second_number} = {multiplication} \n")
+print(f"The sum of {first_number} and {second_number} = {multiplication:.2f} \n")
 
 #To perform division
 print("Please Enter two numbers to divide")
@@ -39,7 +39,7 @@ first_number=input("First Number:")
 #prompt a user for a second number
 second_number=input("Second Number:")
 division=float(first_number) / float(second_number)
-print(f"The sum of {first_number} and {second_number} = {division} \n")
+print(f"The sum of {first_number} and {second_number} = {division:.2f} \n")
 
 #To perform exponential
 print("Please Enter two numbers to perform exponential operation")
@@ -48,6 +48,6 @@ first_number=input("First Number:")
 #prompt a user for a second number
 second_number=input("Second Number:")
 exp=float(first_number) ** float(second_number)
-print(f"The sum of {first_number} and {second_number} = {exp} \n")
+print(f"The sum of {first_number} and {second_number} = {exp:.2f} \n")
 
 
